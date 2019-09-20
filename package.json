@@ -1,0 +1,24 @@
+{
+  "name": "amazon-price-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggaytan00/Amazon-Price-Checker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggaytan00/Amazon-Price-Checker/issues"
+  },
+  "homepage": "https://github.com/ggaytan00/Amazon-Price-Checker#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "dotenv": "^8.1.0",
+    "nightmare": "^3.0.2"
+  }
+}
