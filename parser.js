@@ -2,6 +2,7 @@ require("dotenv").config();
 const sendGridMail = require("@sendgrid/mail");
 const nightmare = require("nightmare")();
 
+// store SENDGRID_API_KEY in .env as SENDGRID_API_KEY=SG.keytext
 sendGridMail.setApiKey(process.env.SENDGRID_API_KEY);
 const arguments = process.argv.slice(2);
 const url = arguments[0];
