@@ -13,6 +13,6 @@ You'll also need (REQUIRED) https://sendgrid.com/ to get an API Key and (OPTIONA
 
 Write into the .env file with your SendGrid API Key like so
 
-    SENDGRID_API_KEY=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
+    SENDGRID_API_KEY=SG.exampleAPIkey
     
 All done. Plugin real emails, upgrade your SG account, and set this script to run as a job on a schedule
